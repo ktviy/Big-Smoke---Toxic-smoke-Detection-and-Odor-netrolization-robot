@@ -2,6 +2,11 @@
 
 A mobile air purifier on a mecanum-wheel base. It measures smoke, combustible gas, carbon monoxide, particulates, temperature and humidity, then drives a mist maker, a filter fan and an ionizer to clean the air. It can be driven over Bluetooth or Wi-Fi, avoid obstacles on its own, or follow an object.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c1734b1-d977-4678-82d7-f67c5fcc00d5" height="300" />
+  <img src="https://github.com/user-attachments/assets/27ba1fb0-070f-4e3d-8c36-ef3af18a15af" height="300"/>
+</p>
+
 ## Hardware
 
 | Part | Interface | Purpose |
@@ -112,7 +117,3 @@ The 1 s status line ends with `loop max=…us avg=…us`. That is the worst-case
 - MQ sensors give indicative values, not certified measurements. The MQ-7 is most accurate with its datasheet heater cycle (5 V / 1.4 V), which this hardware does not do.
 - The firmware for the ESP board is not in this repository. It needs to forward single-character commands to the Mega and can read the JSON telemetry lines.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2c1734b1-d977-4678-82d7-f67c5fcc00d5" height="300" />
-  <img src="https://github.com/user-attachments/assets/27ba1fb0-070f-4e3d-8c36-ef3af18a15af" height="300"/>
-</p>
